@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('So you want to learn about Esther? Just say HELLO to get started.')
+            return bot.say('So you want to learn about Austin? Just say BOT to get started.')
                 .then(() => 'speak');
         }
     },
@@ -44,7 +44,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`I didn't understand that.`).then(() => 'speak');
+                    return bot.say(`So while Austin might be bad at small talk, I'm exactly 32.96 times worse because bots can do that kind of math and still be anti-social. Say 'more' to chat about something I can work with.`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
