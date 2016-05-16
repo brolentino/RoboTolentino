@@ -44,7 +44,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`So while Austin might be bad at small talk, I'm exactly 32.96 times worse because bots can do that kind of math and still be anti-social. Say 'more' to chat about something I can work with.`).then(() => 'speak');
+                    return bot.say(`So while Austin might be bad at small talk sometimes, I'm actually a lot worse - esp. with sentences, emojis, and stickers. Say 'more' for other topics.`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
