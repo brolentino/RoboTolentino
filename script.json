@@ -1,8 +1,8 @@
 {
     "BOT": "Hi there!\nI’m the personal bot of Austin, currently an undergraduate student at Loyola.\nWant to learn more about Austin? %[Learn about Austin](postback:learn_about_austin) %[One random fact!](postback:random_fact)",
-    "*HELLO*": "Hey, I'm so glad you set RoboTolentino up! Do you want to tell Austin that you're talking to his bot? %[Tell him](postback:twitter)",
+    "HELLO": "Hey, I'm so glad you set RoboTolentino up! Do you want to tell Austin that you're talking to his bot? %[Tell him](postback:twitter)",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, RoboTolentino is back.",
-    "*HELLO HELLO*": "Hey hey!"
+    "HELLO HELLO": "Hey hey!"
 }
