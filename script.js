@@ -43,7 +43,7 @@ module.exports = new Script({
                     return Promise.resolve("speak");
                 }
 
-                if (!_.has(scriptRules, upperText)) {
+                if (!_.has(scriptRules*, upperText)) {
                     return bot.say(`So while Austin might be bad at small talk sometimes, I'm actually a lot worse - esp. with sentences, emojis, and stickers. Say 'more' for other topics.`).then(() => 'speak');
                 }
 
